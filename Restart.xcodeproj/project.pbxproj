@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4BAD85F82A01E89600090800 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD85F72A01E89600090800 /* AudioPlayer.swift */; };
+		4BAD85FA2A01F3F900090800 /* jam3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4BAD85F92A01F3F900090800 /* jam3.m4a */; };
 		4BDA9AF02A01780500D427EF /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA9AEF2A01780500D427EF /* RestartApp.swift */; };
 		4BDA9AF22A01780500D427EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA9AF12A01780500D427EF /* ContentView.swift */; };
 		4BDA9AF42A01780600D427EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA9AF32A01780600D427EF /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		4BAD85F72A01E89600090800 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		4BAD85F92A01F3F900090800 /* jam3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jam3.m4a; sourceTree = "<group>"; };
 		4BDA9AEC2A01780500D427EF /* Restart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDA9AEF2A01780500D427EF /* RestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartApp.swift; sourceTree = "<group>"; };
 		4BDA9AF12A01780500D427EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		4BDA9B012A017CAF00D427EF /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				4BAD85F92A01F3F900090800 /* jam3.m4a */,
 				4BDA9AFD2A017CA300D427EF /* chimeup.mp3 */,
 				4BDA9AFE2A017CA300D427EF /* success.m4a */,
 			);
@@ -180,6 +183,7 @@
 				4BDA9B022A017CC500D427EF /* chimeup.mp3 in Resources */,
 				4BDA9B002A017CA300D427EF /* success.m4a in Resources */,
 				4BDA9AF72A01780600D427EF /* Preview Assets.xcassets in Resources */,
+				4BAD85FA2A01F3F900090800 /* jam3.m4a in Resources */,
 				4BDA9AF42A01780600D427EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +365,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
